@@ -1,0 +1,40 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# SQLite database file
+*.sqlite3
+
+# Static files
+staticfiles/
+
+# Media files
+media/
+
+# Virtual environment
+venv/
+
+# IDE project files
+*.iml
+
+# Compiled Python files
+*.pyc
+
+# Secret keys
+*.secret
+
+# Ignore migrations, as they can cause conflicts and should be generated again on each environment
+**/migrations/*.py
+**/migrations/*.pyc
